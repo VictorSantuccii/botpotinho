@@ -9,7 +9,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
+bot = commands.Bot(command_prefix="p!", intents=intents, help_command=None)
 
 
 async def load_extensions():
@@ -19,6 +19,12 @@ async def load_extensions():
     await bot.load_extension("commands.serverinfo")
     await bot.load_extension("commands.roll")
     await bot.load_extension("commands.help")
+    await bot.load_extension("commands.abracar")
+    await bot.load_extension("commands.beijar")
+    await bot.load_extension("commands.tapa")
+    await bot.load_extension("commands.ship")
+    await bot.load_extension("commands.par")
+
     
 @bot.event
 async def on_ready():

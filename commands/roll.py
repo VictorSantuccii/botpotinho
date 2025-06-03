@@ -8,7 +8,6 @@ class Roll(commands.Cog):
 
     @commands.command(name="roll")
     async def roll(self, ctx, max_number: int = 6):
-        """Rola um dado de 1 até max_number (padrão 6)."""
         if max_number < 1:
             await ctx.send("O número deve ser maior que 0.")
             return
