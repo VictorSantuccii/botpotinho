@@ -24,11 +24,16 @@ async def load_extensions():
     await bot.load_extension("commands.tapa")
     await bot.load_extension("commands.ship")
     await bot.load_extension("commands.par")
+    await bot.load_extension("commands.calc")
+    await bot.load_extension("commands.lembrete")
+    await bot.load_extension("commands.traduzir")
+    await bot.load_extension("commands.music")
 
-    
+
 @bot.event
 async def on_ready():
-    print(f'Bot conectado como {bot.user.name}')
+    print(f'Bot conectado como: {bot.user.name}')
+
 
 async def main():
     async with bot:
