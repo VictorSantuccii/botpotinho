@@ -1,6 +1,6 @@
 # 🐾 Bot Potinho 🐾
 
-Olá! Seja bem-vindo ao **Bot Potinho**, seu bot de Discord cheio de comandos legais para interagir, se divertir e deixar seu servidor mais animado! 🎉
+Olá! Seja bem-vindo ao **Bot Potinho**, um bot de Discord cheio de comandos legais para interagir, se divertir e deixar seu servidor mais animado! 🎉
 
 
 ## 🚀 Recursos
